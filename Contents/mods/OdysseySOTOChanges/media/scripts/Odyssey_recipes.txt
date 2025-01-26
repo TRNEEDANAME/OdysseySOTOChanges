@@ -1,0 +1,31 @@
+/************** WILL BE ADDED TO ANOTHER MOD LATER ****************/
+
+module Base {
+
+    recipe Make Yarn
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+        Thread=2,
+        RippedSheets=3,
+
+	   SkillRequired:Tailor=3,
+        Result:Base.Yarn,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+    recipe Make Knitting Needles
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+        Thread=2,
+        WoodenStick=3,
+
+	   SkillRequired:Tailor=3,
+        Result:Base.KnittingNeedles,
+        Sound:ClothesRipping,
+        Time:100.0,
+        AnimNode:RipSheets,
+    }
+
+}

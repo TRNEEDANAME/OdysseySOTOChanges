@@ -1,0 +1,15 @@
+version=1
+id=3352104686
+title=Trait changes : The Odyssey's difficulty
+description=[h1]Trait changes for the Odyssey RP server ! [/h1]
+description=
+description=This mod is used by The Odyssey's RP server
+description=
+description=[url=https://discord.gg/XqPw5hPRUR][img]https://media.discordapp.net/attachments/1291314369015320607/1300356865095630968/ODYSSEYheader_red_1.png?ex=67208b34&is=671f39b4&hm=5b0e8ae87b8aea25a6d314ef1c1c8ed07565d6c025d07463b0a8e42955b0af4e&=&format=webp&quality=lossless[/img][/url]
+description=
+description=It changes some values (Former Scout, Fit and Stout)
+description=
+description=Former scout : loose +1 first aid for +1 trapping
+description=Fit & Stout, get +1 instead of +2
+tags=Build 41;Balance;Multiplayer;Traits
+visibility=public
