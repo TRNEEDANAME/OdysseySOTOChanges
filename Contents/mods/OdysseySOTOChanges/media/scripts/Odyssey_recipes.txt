@@ -21,11 +21,27 @@ module Base {
         Thread=2,
         WoodenStick=3,
 
-	   SkillRequired:Tailor=3,
+	    SkillRequired:Tailor=3,
         Result:Base.KnittingNeedles,
         Sound:ClothesRipping,
         Time:100.0,
-        AnimNode:RipSheets,
+    }
+
+    recipe Make Sugar {
+        keep Pot,
+        WildBeets=2,
+        Result:Base.Sugar,
+        SkillRequired:Cooking=3,
+        Time:100.0,
+    }
+
+    recipe Make Bleach {
+        Water=4,
+        BleachEmpty,
+        CleaningLiquid2=5,
+        Soap2=3,
+        Result:Base.BleachBottle,
+        Time:100.0,
     }
 
 }
