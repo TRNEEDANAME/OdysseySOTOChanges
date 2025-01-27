@@ -5,10 +5,10 @@ OdysseyTraitsChanges = {}
 OdysseyTraitsChanges.DoTraits = function()
 
 	--local test = TraitFactory.addTrait("TR_TEST", getText("UI_trait_sneaky"), 1, getText("UI_trait_sneakydesc"), false);
-    local stout = TraitFactory.addTrait("Stout", getText("UI_trait_stout"), 6, getText("UI_trait_stoutDesc3"), false);
+    local stout = TraitFactory.addTrait("Stout", getText("UI_trait_stout"), 6, getText("UI_trait_stoutDesc"), false);
     stout:addXPBoost(Perks.Strength, 1);  -- Nerfed to +1
 
-    local fit = TraitFactory.addTrait("Fit", getText("UI_trait_fit"), 6, getText("UI_trait_fitdesc3"), false);
+    local fit = TraitFactory.addTrait("Fit", getText("UI_trait_fit"), 6, getText("UI_trait_fitdesc"), false);
     fit:addXPBoost(Perks.Fitness, 1);  -- Nerfed to +1
 
 -- Change Former Scout from +1 First Aid and Foraging to +1 Trapping and Foraging

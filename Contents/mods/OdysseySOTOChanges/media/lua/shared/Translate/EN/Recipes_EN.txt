@@ -1,4 +1,6 @@
 Recipes_EN {
-Recipe_Make_Yarn = "Make Yarn",
+    Recipe_Make_Yarn = "Make Yarn",
     Recipe_Make_Knitting_Needles = "Make Knitting Needles",
+    Recipe_Make_Sugar = "Make Sugar",
+    Recipe_Make_Bleach = "Make Bleach",
 }

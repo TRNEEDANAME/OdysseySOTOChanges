@@ -31,8 +31,8 @@ module Base {
         keep Pot,
         WildBeets=2,
         Result:Base.Sugar,
-        SkillRequired:Cooking=3,
-        Time:100.0,
+        SkillRequired:Cooking=5,
+        Time:300.0,
     }
 
     recipe Make Bleach {
