@@ -40,7 +40,7 @@ module Base {
         BleachEmpty,
         CleaningLiquid2=5,
         Soap2=3,
-        Result:Base.BleachBottle,
+        Result:Base.Bleach,
         Time:100.0,
     }
 
