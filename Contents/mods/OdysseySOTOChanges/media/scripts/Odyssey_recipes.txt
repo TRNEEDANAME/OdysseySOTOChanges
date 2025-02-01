@@ -37,10 +37,10 @@ module Base {
 
     recipe Make Bleach {
         Water=4,
-        BleachEmpty,
+        BleachEmpty/WaterBottleEmpty/PopBottleEmpty/WhiskeyEmpty/BeerEmpty/WineEmpty2/WineEmpty/RemouladeEmpty/RemouladeEmpty,
         CleaningLiquid2=5,
         Soap2=3,
-        Result:Base.BleachBottle,
+        Result:Base.Bleach,
         Time:100.0,
     }
 
